@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Donut SMP | الموقع الرسمي</title>
+    <title>ARAB SMP | الموقع الرسمي</title>
     <style>
         :root {
-            --primary-color: #ff4d4d;
-            --bg-color: #1a1a1a;
-            --card-bg: #2d2d2d;
+            --primary-color: #2ecc71; /* لون أخضر ماين كرافتي */
+            --bg-color: #0f0f0f;
+            --card-bg: #1e1e1e;
             --text-color: #ffffff;
         }
         body {
@@ -26,80 +26,62 @@
         .container {
             background-color: var(--card-bg);
             padding: 2rem;
-            border-radius: 15px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.7);
             text-align: center;
-            max-width: 500px;
+            max-width: 450px;
             width: 100%;
-            border: 2px solid var(--primary-color);
+            border-bottom: 5px solid var(--primary-color);
         }
-        h1 { color: var(--primary-color); margin-bottom: 0.5rem; }
-        p { color: #aaa; margin-bottom: 2rem; }
+        h1 { color: var(--primary-color); margin-bottom: 10px; font-size: 2.5rem; }
+        .server-status { color: #888; margin-bottom: 30px; font-size: 0.9rem; }
         .info-box {
-            background: #222;
+            background: #111;
             padding: 15px;
-            border-radius: 10px;
+            border-radius: 12px;
             margin-bottom: 15px;
-            text-align: right;
-            border-right: 5px solid var(--primary-color);
-            position: relative;
+            text-align: center;
+            border: 1px solid #333;
+            transition: 0.3s;
         }
-        .info-label { font-size: 0.8rem; color: var(--primary-color); display: block; }
-        .info-value { font-size: 1.1rem; font-family: monospace; letter-spacing: 1px; }
-        .copy-btn {
-            background: var(--primary-color);
-            border: none;
-            color: white;
-            padding: 5px 10px;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 0.7rem;
-            float: left;
-        }
+        .info-box:hover { border-color: var(--primary-color); }
+        .info-label { font-size: 0.75rem; color: var(--primary-color); display: block; font-weight: bold; margin-bottom: 5px; }
+        .info-value { font-size: 1.2rem; font-family: 'Courier New', Courier, monospace; }
         .staff-section {
-            margin-top: 20px;
-            padding-top: 15px;
-            border-top: 1px solid #444;
+            margin-top: 25px;
+            padding: 15px;
+            background: rgba(255, 152, 0, 0.1);
+            border-radius: 12px;
+            border: 1px dashed #ff9800;
         }
-        .badge {
-            background: #ff9800;
-            color: black;
-            padding: 2px 8px;
-            border-radius: 5px;
-            font-weight: bold;
-            font-size: 0.9rem;
-        }
+        .staff-title { color: #ff9800; font-weight: bold; font-size: 0.9rem; display: block; margin-bottom: 10px; }
     </style>
 </head>
 <body>
 
     <div class="container">
-        <h1>🍩 DONUT SMP</h1>
-        <p>مرحباً بك في سيرفر المغامرة الأسطوري</p>
+        <h1>ARAB SMP</h1>
+        <div class="server-status">سيرفر العرب الأقوى في ماين كرافت</div>
 
         <div class="info-box">
-            <span class="info-label">عنوان الآيبي (IP)</span>
-            <span class="info-value" id="ip">arabsmpp.aternos.me</span>
+            <span class="info-label">IP ADDRESS</span>
+            <span class="info-value">arabsmpp.aternos.me</span>
         </div>
 
         <div class="info-box">
-            <span class="info-label">البورت (Port)</span>
+            <span class="info-label">PORT</span>
             <span class="info-value">13547</span>
         </div>
 
         <div class="staff-section">
-            <span class="badge">حساب تشغيل السيرفر (Aternos)</span>
-            <div class="info-box" style="margin-top:10px; border-right-color: #ff9800;">
-                <span class="info-label">اسم المستخدم</span>
-                <span class="info-value">arabsmp_staff</span>
-            </div>
-            <div class="info-box" style="border-right-color: #ff9800;">
-                <span class="info-label">كلمة المرور</span>
-                <span class="info-value">Ts-M.C8dWUYNxqG</span>
+            <span class="staff-title">⚠️ بيانات تشغيل السيرفر (للطاقم فقط)</span>
+            <div style="font-size: 0.8rem; line-height: 1.6; text-align: center;">
+                المستخدم: <b>arabsmp_staff</b><br>
+                كلمة السر: <code style="background: #000; padding: 2px 5px; border-radius: 3px;">Ts-M.C8dWUYNxqG</code>
             </div>
         </div>
-
-        <small style="color: #666;">* ملاحظة: الحساب المشترك للتشغيل فقط، الرجاء عدم محاولة تغيير البيانات.</small>
+        
+        <p style="font-size: 0.7rem; color: #555; margin-top: 20px;">جميع الحقوق محفوظة لسيرفر ARAB SMP © 2026</p>
     </div>
 
 </body>
